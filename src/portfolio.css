@@ -156,4 +156,15 @@ body{
     width: 500px;
     height: 500px;
   }
+
+  .app-image {
+    max-width: 300px;
+  }
+  .app-image:hover {
+    transform: scale(1.1);
+  }
+
+
+
+
   
