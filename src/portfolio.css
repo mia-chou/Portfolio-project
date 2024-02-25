@@ -19,7 +19,9 @@
       body header h3 {
         font-size: 20px;
       }
-      .my-design {
+      
+      
+      .image {
         display: none;
       }
       body.container {
@@ -28,9 +30,6 @@
       .container .row a {
         margin: 5px auto;
       }
-
-
-
 
       body.container {
         margin-left: 100px;
@@ -59,8 +58,8 @@
       margin-top: 0px;
     }
     
-    .my-design {
-    border: 1px solid rgb(203, 204, 203);
+    .image {
+    border: 2px solid var(--branding-color);
     padding: 10px;
     width: 500px;
     height: 500px;
@@ -83,8 +82,19 @@
     }
 
 
+
+    @media (min-width: 550px) {
+        .container .image {
+          display: flex;
+          width: 80%;
+          height: 80%;
+          margin-top: 100px;
+        }
+    }
+
 :root {
-    --branding-color:#9EA9A2;
+    --branding-color:#BECCBB;
+    --primary-color:#89a192; 
     --secondary-color: #F5F4F2;
     --heading-font-family:"Playfair Diaplay" serif;
     --default-font-family:"Poppins" sans-serif;
@@ -93,36 +103,35 @@
 
 
 .btn-branding{
-color: var(--branding-color);
+background-color: var(--branding-color);
+border-radius: 4px;
+color:#666666;
+font-size: 18px;
+line-height: 27px;
+padding: 15px 30px;
 
 }
+
+.btn-branding-outline {
+    border: 1px solid var(--branding-color);
+    border-radius: 5px;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 15px 30px;
+  }
+
+
+  .btn:hover{
+    color: #394240;
+   background: var(--branding-color);
+   
+
+  }
 
 body{
     font-family: var(--default-font-family);
 }
-
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6{
-color: black;
-font-weight: bold;
-font-family: var(--heading-font-family)
-}
-
-
-h1{
-    font-size: 96px;
-}
-
-h2{
-    font-size: 64px;
-}
-
-  
+ 
  
   .row a {
     margin: 8px auto;
@@ -130,24 +139,21 @@ h2{
     padding: 25px;
     margin-left: 110px;
   }
-    
-
   
-
-
-
-p{
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 1.5;
-}
-
   .container .links {
     margin-top: 110px;
   }
-  .row a {
-    margin: 8px auto;
-    width: 400px;
-    padding: 25px;
-    margin-left: 110px;
+  
+  .about-desc {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    width: 75%;
   }
+  .image-about {
+    display: block;
+    margin: 50px auto;
+    width: 500px;
+    height: 500px;
+  }
+  
