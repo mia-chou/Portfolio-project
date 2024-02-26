@@ -58,12 +58,14 @@
       margin-top: 0px;
     }
     
-    .image {
-    border: 2px solid var(--branding-color);
-    padding: 10px;
-    width: 500px;
-    height: 500px;
-  }
+    .index-image {
+        border: 2px solid var(--branding-color);
+        padding: 10px;
+        width: 500px;
+        height: 500px
+      }
+
+
 
     .container {
       display: flex;
@@ -130,6 +132,7 @@ padding: 15px 30px;
 
 body{
     font-family: var(--default-font-family);
+
 }
  
  
@@ -150,15 +153,18 @@ body{
     text-align: center;
     width: 75%;
   }
+
   .image-about {
     display: block;
     margin: 50px auto;
     width: 500px;
     height: 500px;
+    border:2px solid var(--branding-color) ;
   }
 
   .app-image {
     max-width: 300px;
+    border-radius: 50px;
   }
   .app-image:hover {
     transform: scale(1.1);
