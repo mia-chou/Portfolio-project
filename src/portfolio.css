@@ -231,3 +231,8 @@ body{
   button a {
     text-decoration: none;
   }
+
+  h3,P{
+
+    text-align: center;
+  }
