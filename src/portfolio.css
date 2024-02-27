@@ -26,6 +26,9 @@
       .image {
         display: none;
       }
+
+
+    
       body.container {
         margin: 0px;
       }
@@ -59,6 +62,38 @@
     header .title {
       margin-top: 0px;
     }
+    
+    
+    .navbar-nav a {
+        color: #394240;
+        font-size: 20px;
+        transition: all 100ms ease-in-out;
+      }
+    
+      .navbar-nav a:hover {
+        color: var(--primary-color);
+      }
+      
+    
+    
+    
+      .app-link {
+        max-width: 250px;
+        text-align: center;
+        background: var(--dkblue);
+        color: var(--putty);
+        font-family: "Forum", "Bellfair", serif;
+        font-size: 1.3em;
+      }
+      .app-link:hover {
+        transition: all ease-in-out 0.3s;
+        color: var(--midnight);
+        border: solid 2px var(--midnight);
+      }
+      
+
+    
+    
     
     .index-image {
         border: 2px solid var(--branding-color);
@@ -122,11 +157,12 @@ padding: 15px 30px;
     font-size: 18px;
     line-height: 27px;
     padding: 15px 30px;
+    color: #394240;
   }
 
 
   .btn:hover{
-    color: #394240;
+    color: white;
    background: var(--branding-color);
    
 
@@ -168,11 +204,30 @@ body{
     max-width: 300px;
     border-radius: 50px;
   }
-  .app-image:hover {
-    transform: scale(1.1);
+  
+
+  button {
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 18px;
+    background: var(--branding-color);
+    color: #394240;
+    padding: 16px 24px;
+    border: 1px solid var(--branding-color);
+    border-radius: 30px;
+    box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+    cursor: pointer;
+    transition: all 150ms ease;
+    text-decoration: none;
   }
 
+  button:hover{
+    background: var(--branding-color);
+    color: white;
+    
+  }
 
-
-
-  
+  button a {
+    text-decoration: none;
+  }
