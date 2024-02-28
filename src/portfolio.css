@@ -232,7 +232,19 @@ body{
     text-decoration: none;
   }
 
-  h3,P{
+  h2,h3,P{
 
     text-align: center;
+  }
+
+  .socials a {
+    padding: 10px;
+    color: var(--branding-color);
+  }
+  .socials p {
+    font-size: 20px;
+    padding: 10px;
+  }
+  footer{
+    color: var(--branding-color);
   }
