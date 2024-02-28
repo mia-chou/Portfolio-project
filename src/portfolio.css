@@ -1,6 +1,6 @@
 @media (max-width: 900px) {
     .body-wrap {
-      background-color:  #FFFBF4;
+      background-color:  #FFEDC0;
     }
 
 
@@ -173,13 +173,15 @@ body{
 
 }
  
- 
+
+
   .row a {
     margin: 8px auto;
     width: 400px;
     padding: 25px;
     margin-left: 110px;
-  }
+    text-decoration: none;
+}
   
   .container .links {
     margin-top: 110px;
@@ -237,6 +239,20 @@ body{
     text-align: center;
   }
 
+footer .email-link{
+    text-decoration: none;
+    color: #394240;
+    font-size: 24px;
+    text-align: center;
+
+}
+
+footer .email-link:hover{
+    color: var(--branding-color);
+}
+
+
+
   .socials a {
     padding: 10px;
     color: var(--branding-color);
@@ -246,5 +262,12 @@ body{
     padding: 10px;
   }
   footer{
+    color: var(--branding-color);
+  }
+  .sign-off {
+    color: #394240;
+  }
+
+  .sign-off a {
     color: var(--branding-color);
   }
