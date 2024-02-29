@@ -134,7 +134,7 @@
 :root {
     --branding-color:#BECCBB;
     --primary-color:#89a192; 
-    --secondary-color: #F5F4F2;
+    --secondary-color: #FFFBF4;
     --heading-font-family:"Playfair Diaplay" serif;
     --default-font-family:"Poppins" sans-serif;
 }
@@ -239,10 +239,34 @@ body{
     text-align: center;
   }
 
+  h4{
+
+    font-size: 26px;
+  }
+.btn{
+    font-size: 18px;
+}
 footer{
     margin: 60px 0;
 }
 
+
+@media (max-width:900){
+
+h1{
+
+    font-size: 44px;
+    line-height: 1.5;
+
+}
+
+}
+
+footer .contact-box{
+    background-color: var(--secondary-color);
+    padding: 30px 12opx;
+    border-radius: 10px;
+}
 
 
   footer .email-link{
@@ -256,15 +280,42 @@ footer .email-link:hover{
     color: var(--branding-color);
 }
 
-footer .social-links a{
-    margin: 0 20px;
 
+footer .social-link a{
+    margin: 0 20px;
+    padding: 10px 14px;
+    font-size: 18px;
+    color: var(--branding-color);
+    background-color:#FFFBF4;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+
+}
+
+footer .social-link a:hover{
+    color: white;
+    background-color: var(--branding-color);
 }
 
   .socials a {
     padding: 10px;
+    margin: 0 20px;
     color: var(--branding-color);
+    background-color: #FFFBF4;
+    border-radius: 50%;
+    transition: all 100ms ease-in-out;
+
   }
+
+  .socials a:hover {
+    color: white;
+    background-color: var(--branding-color);
+
+  }
+
+
+
+
   .socials p {
     font-size: 20px;
     padding: 10px;
