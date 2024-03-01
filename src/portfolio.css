@@ -15,7 +15,6 @@
       }
       header .title-container {
         font-size: 20px;
-        margin-bottom: -120px;
       }
 
       body header h3 {
@@ -283,8 +282,10 @@ h1{
 
 footer .contact-box{
     background-color: var(--secondary-color);
-    padding: 30px 12opx;
+    padding: 12px 30px;
     border-radius: 10px;
+    max-width: 70%;
+    margin: 0 auto;
 }
 
 
